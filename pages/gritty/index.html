@@ -3,37 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
     <title>Gritty</title>
 </head>
 <body>
+<!-- Navbar Section -->
+ <nav class="navbar">
+    <ul>
+        <li><a class="blue" href="">Gritter</a></li>
+         <li>Landing</li>
+          <li>Gritty</li>
+          
+    </ul>
+ </nav>
+
+
    <!-- Banner Section -->
-    <div>
+    <div class="banner">
         <h1>Gritty's landing banner</h1>
-        <img src="./resources/images/gritty_face.png" alt="Face of Gritty">
+        <img id="small-gritty" src="./resources/images/gritty_face.png" alt="Face of Gritty">
         <p>Cause everything's is better with Gritty's face on it.</p>
         <button>Subscribe to me or I'll eat you</button>
     </div>
 
     <!-- Gritter section -->
-     <div>
-        <span>Gritter</span>
-        <p>Social media dedicated to Gritty... and only Gritty.</p>
+     <div id="gritter-section">
+        <span class="bold" id="gritter">Gritter</span>
+        <p class="bold">Social media dedicated to Gritty... and only Gritty.</p>
         <form action="">
             <input type="text">
             <input type="submit" value="Submit">
         </form>
-        <div>
+        <div id="greets">
             <ul>
                 <li>
-                <div></div><span>
+                <div class="avatar"></div><span>
                     Hey there, it's Gritty again</span>
                </li>
                                <li>
-                <div></div><span>
+                <div class="avatar"></div><span>
                     I haven't eaten any other mascots since yesterday</span>
                </li>
                                <li>
-                <div></div><span>
+                <div class="avatar"></div><span>
                     Burp</span>
                </li>
              </ul>

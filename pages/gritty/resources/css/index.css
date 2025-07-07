@@ -1,0 +1,84 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* h1 {
+  color: SeaGreen;
+}
+
+
+p, 
+li {
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+} */
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.banner{
+    background-color: blue;
+    color: white;
+    /* margin-top: 50px ; */
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-gritty{
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#gritter{
+    color: blue;
+    font-size: 100px;
+}
+
+.avatar{
+    display: inline-block;
+    background-image: url("../images/gritty_face.png");
+    background-size: cover;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+a.blue{
+    color: blue;
+}
+
+#greets ul{
+    list-style-type: none;
+
+}
+
+#gritter-section{
+    padding: 20px 50px;
+}
