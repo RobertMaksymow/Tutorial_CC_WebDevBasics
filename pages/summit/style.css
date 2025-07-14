@@ -1,0 +1,44 @@
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid darkblue;
+  color: darkblue;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid blue;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn:hover {
+  color: darkblue;
+  background-color: lightblue;
+  border: 2px solid darkblue;
+}
+
+.btn:active {
+  color: white;
+  background-color: red;
+}
+
+.activity {
+  cursor: pointer;
+  border: 2px solid #2176ff;
+  box-shadow: 0 2px 6px rgba(33, 118, 255, 0.15);
+}
+
+.activity:hover {
+  background-color: darkblue;
+  color: white;
+  transition: color 0.1s ease-in, background-color 0.1s ease-in;
+}
+
+.activity:active {
+  background-color: red;
+}
