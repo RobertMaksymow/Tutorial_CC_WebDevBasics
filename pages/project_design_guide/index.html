@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Style Guide</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Project Design Guide</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="h2">Project Name</th>
+            <th><input /></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="h2-row">
+            <th class="h2">Colors</th>
+            <td>Primary:</td>
+            <td>Secondary:</td>
+            <td>Thirdary:</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="color-primary" id="color-box-primary">
+              <span id="color-value-primary"></span>
+              <p>Use case: header</td>p>
+              <p></p>
+            </td>
+
+            <td class="color-secondary" id="color-box-secondary">
+              <span id="color-value-secondary"></span>
+              <p>Use case: background</p>
+              <p></p>
+            </td>
+
+            <td class="color-thirdary" id="color-box-thirdary">
+              <span id="color-value-thirdary"></span>
+              <p>Use case: buttons</p>
+              <p></p>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr class="h2-row">
+            <th class="h2">Fonts</th>
+            <td>Primary:</td>
+            <td>Secondary:</td>
+            <td>Thirdary:</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="font-primary">
+              <span>Courier</span>
+              <p class="font-normal">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+              <p class="font-bold">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+              <p class="font-italic">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+            </td>
+            <td class="font-secondary">
+              <span>Tahoma</span>
+              <p class="font-normal">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+              <p class="font-bold">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+              <p class="font-italic">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+            </td>
+            <td class="font-thirdary">
+              <span>Arial</span>
+              <p class="font-normal">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+              <p class="font-bold">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+              <p class="font-italic">
+                Source Code Pro The quick brown fox jumps over the lazy dog.
+              </p>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr class="h2-row">
+            <th class="h2" scope="col">Text styles</th>
+            <td>H1:</td>
+            <td>H2:</td>
+            <td>H3:</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <h1>H1 Main page heading</h1>
+              <ul>
+                <li>Font-weight: bold</li>
+                <li>Font-size: 2rem</li>
+                <li>Font-family: Courier</li>
+              </ul>
+            </td>
+            <td>
+              <h2>H2 page subheading</h2>
+              <ul>
+                <li>Font-weight: bold</li>
+                <li>Font-size: 1rem</li>
+                <li>Font-family: Tahoma</li>
+              </ul>
+            </td>
+            <td>
+              <h3>H3 page heading</h3>
+              <ul>
+                <li>Font-weight: bold</li>
+                <li>Font-size: 0.8rem</li>
+                <li>Font-family: Arial</li>
+              </ul>
+            </td>
+          </tr>
+          <tr class="h2-row">
+            <td></td>
+            <td>Paragraph 1:</td>
+            <td>Paragraph 2:</td>
+            <td>Links:</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Text sample</td>
+            <td>Text sample</td>
+            <td>Text sample</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <th>Designed by:</th>
+            <td>Max Kolonkov</td>
+            <td>Date:</td>
+          </tr>
+          <tr>
+            <th>Approved by:</th>
+            <td>John Connor</td>
+            <td>Date:</td>
+          </tr>
+        </tfoot>
+      </table>
+    </header>
+  </body>
+  <script>
+    const box1 = document.getElementById("color-box-primary");
+    const color1 = window.getComputedStyle(box1).backgroundColor;
+    document.getElementById("color-value-primary").textContent = color1;
+    const box2 = document.getElementById("color-box-secondary");
+    const color2 = window.getComputedStyle(box2).backgroundColor;
+    document.getElementById("color-value-secondary").textContent = color2;
+    const box3 = document.getElementById("color-box-thirdary");
+    const color3 = window.getComputedStyle(box3).backgroundColor;
+    document.getElementById("color-value-thirdary").textContent = color3;
+  </script>
+</html>

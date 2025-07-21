@@ -1,0 +1,87 @@
+:root {
+  --primary-color: RGBA(144, 238, 144, 0.8);
+  --secondary-color: RGBA(255, 140, 0, 1);
+  --thirdary-color: RGBA(173, 216, 230, 1);
+}
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Courier;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Tahoma;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: Arial;
+}
+
+table {
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th {
+  width: 25%;
+}
+
+tfoot {
+  background-color: gray;
+}
+
+.font-primary {
+  font-family: Courier;
+}
+
+.font-secondary {
+  font-family: Tahoma;
+}
+
+.font-thirdary {
+  font-family: Arial;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  border: 1px solid red;
+}
+
+.h2-row {
+  border: 1px solid pink;
+  background-color: lightgray;
+}
+
+.color-primary {
+  height: 80px;
+  background-color: var(--primary-color);
+}
+
+.color-secondary {
+  background-color: var(--secondary-color);
+}
+
+.color-thirdary {
+  background-color: var(--thirdary-color);
+}
