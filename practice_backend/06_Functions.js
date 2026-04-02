@@ -261,3 +261,30 @@ function toEmoticon(string) {
 
 console.log(toEmoticon("whatever"));
 // Should print  '|_(* ~ *)_|'
+
+function colorMessage(favoriteColor, shirtColor) {
+  return favoriteColor === shirtColor
+    ? "The shirt is your favorite color!"
+    : "That is a nice color.";
+}
+
+console.log(colorMessage("blue", "black"));
+
+function isEven(number) {
+  return number % 2 === 0 ? true : false;
+}
+
+console.log(isEven(0));
+
+// Create function here
+function numberDigits(x) {
+  if (x >= 0 && x <= 9) {
+    return `One digit: ${x}`;
+  } else if (x >= 10 && x <= 99) {
+    return `Two digits: ${x}`;
+  } else {
+    return `The number is: ${x}`;
+  }
+}
+
+console.log(numberDigits(-202));
